@@ -1,0 +1,683 @@
+*{
+    margin: 0;
+    font-family: "Azeret Mono";
+    border: border-box;
+}
+
+/* Navigation Bar  */
+.navbar{
+    font-family: "IntAzeret Monoer";
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+/* Name at Navigation bar  */
+.name {
+    font-weight: 900;
+    font-size: 128*33;
+}
+
+/* Button on the Navigation Bar*/
+.resume{
+    height: 269.05;
+    width: 63.58;
+    border-radius: 8.84;
+    padding-left: 4%;
+    width: 269.5px;
+    height: 63.58px;
+    font-family: "Azeret Mono";
+    font-weight: bold;
+}
+
+.resume:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+/* hero section  */
+
+.hero-section{
+    background-image: url(assets/Hero-bg.png);
+    height: 652px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 15px;
+    position: relative;
+}
+
+/* 1st photo of hero section  */
+
+.hero-image{
+    position: relative;
+    top: 10px;
+    left: 50%;
+    height: 240.28px;
+    width: 240px;
+    
+}
+
+.hero-message{
+    font-family: 'Azeret Mono';
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.hero-lorem{
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.hero-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:18px;
+}
+
+.hero-button1{
+    height: 65px;
+    width: 244px;
+    background-color: #0D1321;
+    color: #ffff;
+    font-size: 20px;
+}
+
+.hero-button1:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+/* Hero section tow  */
+
+.hero2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero2-inner{
+    height: 1393px;
+    width: 1300px;
+    margin-top: 25px;
+    background-color: rgb(250, 250, 251);
+    padding-left: 97px;
+    padding-right: 97px;
+    padding-top: 80px;
+    padding-right: 80px;
+    border-radius: 25px;
+}
+
+.hero2-question{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.hero2-answer{
+    margin-top: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+/* Css in Hero 2 section for box 1  */
+
+.hero2-box2{
+    margin-top: 60px;
+    width: 1250px;
+    height: 336px;
+    background-color: pink;
+    border-radius: 25px;
+    display: flex;
+}
+
+.hero2-box2-head{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-left: 47px;
+    padding-top: 47px;
+}
+
+.hero2-box2-body{
+    text-align: left;
+    font-size: 24px;
+    margin-left: 47px;
+    padding-top: 15px;
+}
+
+.hero2-box2-button{
+    text-align: left;
+    font-size: 24px;
+    margin-left: 47px;
+    padding-top: 15px;
+}
+.hero2-box2-button1{
+    text-align: center;
+    height: 47px;
+    width:171px ;
+    font-size: 20px;
+    font-weight: bold; 
+    margin-top: 15px;
+}
+
+.hero2-box2-button1:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.hero2-box2-image{
+    margin: 30px;
+  
+}
+.hero2-box2-image1{
+    height: 274.17px;
+    width: 240px;
+}
+
+
+
+
+/* For Box three */
+
+.hero2-box3{
+    margin-top: 60px;
+    width: 1250px;
+    height: 336px;
+    background-color: pink;
+    border-radius: 25px;
+    display: flex;
+}
+
+.hero2-box3-head{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-left: 47px;
+    padding-top: 47px;
+}
+
+.hero2-box3-body{
+    text-align: left;
+    font-size: 24px;
+    margin-left: 47px;
+    padding-top: 15px;
+}
+
+.hero2-box3-button{
+    text-align: left;
+    font-size: 24px;
+    margin-left: 47px;
+    padding-top: 15px;
+}
+.hero2-box3-button1{
+    text-align: center;
+    height: 47px;
+    width:171px ;
+    font-size: 20px;
+    font-weight: bold; 
+    margin-top: 15px;
+}
+
+.hero2-box3-button1:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.hero2-box3-image{
+    margin: 30px;
+  
+}
+.hero2-box3-image1{
+    height: 274.17px;
+    width: 240px;
+}
+
+
+/* Three No hero Section  */
+
+.hero3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero3-content{
+    width: 1300px;
+    height: 775px ;
+    margin-top: 25px;
+    background-color: rgb(250, 250, 251);
+    padding-left: 97px;
+    padding-right: 97px;
+    padding-top: 80px;
+    padding-right: 80px;
+    border-radius: 25px;
+}
+
+.hero3-head{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero3-body{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.hero3-video{
+    height: 614px;
+    width: 1140px;
+    background-color: rgb(253, 249, 250);
+    margin-left: 60px;
+    margin-top: 60px;
+    border-radius: 25px;
+    border: 1px, solid, rgb(53, 2, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Css for Section 4 */
+
+.hero4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;;
+}
+.hero4-inner{
+    height: 1393px;
+    width: 1300px;
+    margin-top: 25px;
+    background-color: rgb(250, 250, 251);
+    padding-left: 97px;
+    padding-right: 97px;
+    padding-top: 80px;
+    padding-right: 80px;
+    border-radius: 25px;
+}
+
+.hero4-head{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero4-body{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.hero4-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.hero4-box1{
+    background-color: rgba(255, 76, 30, 0.05);
+    height: 299px;
+    width: 364px;
+}
+.hero4-box2{
+    background-color: rgba(0, 6, 232, 0.05);
+    height: 299px;
+    width: 364px;
+}
+.hero4-box3{
+    background-color: rgba(255, 223, 0, 0.05);
+    height: 299px;
+    width: 364px;
+}
+
+/* For box one  */
+
+.hero4-box1-content{
+    margin: 40px;
+}
+.hero4-box1-img{
+    height: 56px;
+    width: 56px;
+}
+
+.hero4-box1-html{
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero4-box1-html-content{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.hero4-box1-html-link{
+    margin-top: 15px;
+    font-size: 16px;
+    color: yellow;
+}
+
+
+
+
+/* For Box 2 */
+
+.hero4-box2-content{
+    margin: 40px;
+}
+.hero4-box2-img{
+    height: 56px;
+    width: 56px;
+}
+
+.hero4-box2-html{
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero4-box2-html-content{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.hero4-box2-html-link{
+    margin-top: 15px;
+    font-size: 16px;
+    color: yellow;
+}
+
+
+/* for box three  */
+
+.hero4-box3-content{
+    margin: 40px;
+}
+.hero4-box3-img{
+    height: 56px;
+    width: 56px;
+}
+
+.hero4-box3-html{
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero4-box3-html-content{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.hero4-box3-html-link{
+    margin-top: 15px;
+    font-size: 16px;
+    color: yellow;
+}
+
+
+
+/* Hero4 css */
+
+.hero4-container{
+    margin-top: 100px;
+}
+
+.hero4-container-head{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.hero4-container-body{
+    margin:18px;
+    text-align : center;
+    font-size: 16px;
+}
+
+
+.hero4-container-longbox{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero4-containter-longbox1{
+    background-color: #fff;
+    height: 219px;
+    width: 100%;
+    border: 0.5px, dashed, pink;
+    border-radius: 25px;
+    margin-top: 50px;
+    display: flex;
+}
+.hero4-containter-longbox2{
+    background-color: #fff;
+    height: 219px;
+    width: 100%;
+    border: 0.5px, dashed, pink;
+    border-radius: 25px;
+    margin-top: 50px;
+    display: flex;
+}
+.hero4-containter-longbox3{
+    background-color: #fff;
+    height: 219px;
+    width: 100%;
+    border: 0.5px, dashed, pink;
+    border-radius: 25px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.hero4-container-longbox1-content{
+    margin-top: 40px;
+}
+
+.hero4-containter-longbox1-img{
+    height: 108px;
+    width: 94.78px;
+    margin: 40px;
+}
+.hero4-containter-longbox1-img1{
+    margin: 15px;
+}
+
+.hero4-container-longbox1-content-head{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.hero4-container-longbox1-content-body{
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+
+.hero4-container-longbox1-content-anchor{
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.anchor{
+    color: black;
+}
+
+
+
+
+
+
+/* longbox two  */
+
+.hero4-container-longbox2-content{
+    margin-top: 40px;
+}
+
+.hero4-containter-longbox2-img{
+    height: 108px;
+    width: 94.78px;
+    margin: 40px;
+}
+.hero4-container-longbox2-content-head{
+    font-size: 36px;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+
+.hero4-container-longbox2-content-body{
+    font-size: 16px;
+    margin-top: 15px;
+    padding-left: 50px;
+}
+
+.hero4-container-longbox2-content-anchor{
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+/* long box three */
+
+.hero4-container-longbox3-content{
+    margin-top: 40px;
+}
+
+.hero4-containter-longbox3-img{
+    height: 108px;
+    width: 94.78px;
+    margin: 40px;
+}
+.hero4-container-longbox3-content-head{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.hero4-container-longbox3-content-body{
+    font-size: 16px;
+    margin-top: 15px;
+    
+}
+.hero4-container-longbox3-content-anchor{
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* support system  */
+
+
+
+
+
+.support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 500px;
+}
+.support-inner{
+    height: 313px;
+    width: 1140px;
+    margin-top: 25px;
+    background-color: yellow;
+    padding-left: 97px;
+    padding-right: 97px;
+    padding-top: 80px;
+    padding-right: 80px;
+    border-radius: 25px;
+    background-image: url(assets/handshake.jpg);
+}
+
+.support-inner-text1{
+    color: #ffff;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.support-inner-text2{
+    color: #ffff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.support-inner-search1{
+    margin-left: 20%;
+    margin-top: 35px;
+    height: 57px;
+    width: 548px;
+    border: none;
+    border-radius: 25px;
+}
+
+.support-inner-search1::placeholder {
+    padding: 30px;
+}
+
+
+.support-inner-search1-button{
+    width: 120px;
+    height: 57px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+}
+.support-inner-search1-button:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+
+/* Footer  */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;;
+}
+
+.footer-inner{
+    height: 36px;
+    width: 1140px;
+    margin-top: 25px;
+    background-color: rgb(250, 250, 251);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
